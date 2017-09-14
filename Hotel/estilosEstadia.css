@@ -1,0 +1,84 @@
+#cajareserva{
+	height: 25px;
+	width: 955px;
+	border: 5px solid #FFFFFF;
+	background: #FFFFFF;
+}
+
+#cajatipohabitaciones{
+	margin-top: -20px;
+	height: auto;
+	width: 950px;
+	padding: 5px;
+	float: left;
+	font-size: 20px;
+	color: #000000;
+	text-align: justify;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.cajatipos{
+	height: auto;
+	width: 950px;
+	padding: 5px;
+	float: left;
+	font-size: 20px;
+	color: #000000;
+	text-align: justify;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.galeriaestadia{
+	width: 100%;
+	margin: auto auto;
+	list-style: none;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.galeriaestadia li{
+	margin: 0px;
+}
+
+.galeriaestadia img{
+	width: 250px;
+	height: 200px;
+}
+
+.galeriaexcursiones{
+	width: 100%;
+	float: right;
+	box-sizing: border-box;	
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.galeriaexcursiones img{
+	float:left;
+	width: 600px;
+	height: 350px;
+}
+
+#cajaagregar{
+	margin-left: 160px;
+	margin-top: 30px;
+	height: auto;
+	width: 250px;
+	border: 5px solid #FFFFFF;
+	background: #FFFFFF;
+}
+
+#cajatipohabitacionesagregar{
+	margin-right: 190px;
+	margin-top: -280px;
+	height: auto;
+	width: auto;
+	padding: 5px;
+	float: right;
+	font-size: 15px;
+	color: #000000;
+	text-align: justify;
+	background: rgba(255, 255, 255, 0.1);
+}

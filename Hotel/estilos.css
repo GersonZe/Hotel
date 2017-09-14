@@ -1,0 +1,179 @@
+ body{
+ 	background: url(imagenes/hco.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: 100% 100%;
+-o-background-size: cover;
+background-size: cover;*/ 
+	/*background-image: url(imagenes/hco.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: contain;
+	background-color: #6495ED;*/
+}
+
+/*cabecera*/
+
+#cabecera{
+	height: 150px;
+}
+
+#cabecera ul{
+	width: 50px;
+	height: 84px;
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#logo{
+	margin-left: 20;
+	float: right;
+}
+
+#contenedor{
+	width: 950px;
+	height: 595px;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+/*Menu Principal*/
+
+.menu,.menu ul{
+	float: left;
+	margin-top: -75;
+	margin-left: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu > li{
+	display: block;
+	float: left;
+	background: #f30;
+}
+
+.menu li > ul{
+	display: none;
+	margin: 0;
+	position: absolute;
+	background:#f30;
+}
+
+.menu li:hover > ul,.menu ul:hover{
+	display:block;
+}
+
+.menu a{
+	display: block;
+	font: 16px/33px arial,verdana,tahoma;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 25px;
+}
+
+.menu li:hover > a{
+	background: rgba(248,80,50,0.8);
+}
+
+.menu li > a:focus{
+	background: rgba(248,80,50,0.5);
+}
+
+
+
+/*HOME*/
+
+.titulopagina{
+	margin-top: -35;
+	display: block;
+	font-size: 60px;
+	color: #FFFFFF;
+	margin-right: 100;
+}
+
+.cajas{
+	margin-top: -55;
+	padding: 5px;
+}
+
+#cajapresentacion{
+	width: 470px;
+	margin-top: 25px;
+	float: left;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+#banner{
+	margin-top: 40;
+	width: 440px;
+	float: right;
+}
+
+/*SERVICIOS*/
+
+#cajaservicios1{
+	background: rgba(255,255,255,0.3);
+	width: 320px;
+	float: left;
+	font-size: 20px;
+	color: #000000;
+}
+
+#cajaservicios2{
+	background: rgba(255,255,255,0.3);
+	width: 320px;
+	float: left;
+	font-size: 20px;
+	color: #000000;
+}
+
+#cajaservicios3{
+	background: rgba(255,255,255,0.3);
+	width: 290px;
+	float: left;
+	font-size: 20px;
+	color: #000000;
+}
+
+
+
+
+
+table {     
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px; 
+    width: 950px;        
+    text-align: left;    
+    border-collapse: collapse; 
+}
+
+th {     
+	font-size: 13px;     
+	font-weight: normal;     
+	padding: 8px;     
+	background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff; 
+    color: #039; 
+}
+
+td {    
+	padding: 8px;     
+	background: #e8edff;     
+	border-bottom: 1px solid #fff;
+    color: #669;    
+    border-top: 1px solid transparent; 
+}
+
+tr:hover td { 
+	background: #d0dafd; 
+	color: #339; 
+}
+
